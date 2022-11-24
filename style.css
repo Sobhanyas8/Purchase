@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+.header {
+    height: 15vh;
+    background-color: rgb(168, 233, 160);
+    display: flex;
+    align-items:center;
+    align-content: space-between;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+    color: black;
+
+}
+a:link{
+    text-decoration: none;
+    
+}
+a:visited{
+    color: rgb(235, 12, 216);
+}
+
+a:hover {
+    color: #fff;
+    background-color: black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+a:active {
+    color: chartreuse;
+}
+
+img{
+    width: 300px;
+    height: 450px;
+   display: block;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+p {
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 15px;
+  
+}
+.productNo {
+    display: inline-block;
+    width: 10px;
+    border: 1px solid grey ;
+    padding: 12px 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.Purchase {
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 15px 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.Purchase:hover {
+    background-color: rgb(45, 255, 38);
+    color: #fff;
+    border: none;
+}
+
+.plus {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(36, 250, 8);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 15px 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.plus:hover {
+    background-color: rgb(36, 250, 8);
+    color: #fff;
+    border: none;
+}
+.minus {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(250, 16, 8);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 15px 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.minus:hover {
+    background-color: rgb(250, 16, 8);
+    color: #fff;
+    border: none;
+}
+#error {
+    color: red;
+
+}
+
